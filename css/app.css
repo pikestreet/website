@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Zuric";
+  src: url("../fonts/zuric/322123_2_0.ttf")
+}
+@font-face {
+  font-family: "Zuric";
+  src: url("../fonts/zuric/322123_1_0.ttf")
+  font-style: italic;
+}
+@font-face {
+  font-family: "Zuric";
+  src: url("../fonts/zuric/322123_3_0.ttf")
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Zuric";
+  src: url("../fonts/zuric/322123_0_0.ttf")
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  background: #87db0f;
+  border-top: 8px solid #2a2a2a;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+.contact {
+  color: #fff;
+  font-size: 30px;
+  font-face: Zuric, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+.contact:hover {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+}
